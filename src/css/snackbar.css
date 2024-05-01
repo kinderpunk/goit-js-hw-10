@@ -1,0 +1,105 @@
+form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+form > label > input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form > label > input:hover {
+  border-color: #000;
+}
+
+form > label > input:focus {
+  border-color: #4e75ff;
+}
+form > fieldset > legend {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+form > fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 48px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+  width: 360px;
+  height: 64px;
+  margin-bottom: 24px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form > fieldset:hover,
+form > fieldset:focus-within {
+  border-color: #000000;
+}
+
+input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+fieldset > label {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+  justify-content: center;
+
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+form > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border: none;
+
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form > button:hover,
+form > button:focus {
+  background-color: #6c8cff;
+}
